@@ -1,6 +1,3 @@
-from data.raw.titanic import df
-
-
 def clean_titanic(df):
     # The original data set won't get mutated
     df = df.copy()
